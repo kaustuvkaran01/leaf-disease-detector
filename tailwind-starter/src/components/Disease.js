@@ -4,25 +4,29 @@ import { Link } from "react-router-dom";
 export default function Disease({ name, desc }) {
   return (
     <div>
-      <section class="text-gray-600 body-font">
-        <div class="container py-12">
-          <div class="flex">
-            <div class="p-2 lg:w-1/5">
-              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                  CATEGORY
+      <section className="text-gray-600 body-font ">
+        <div className="container py-12">
+          <div className="flex flex-wrap justify-center">
+            <div className="lg:w-4/5">
+              <div className="h-full bg-gray-100 bg-opacity-75 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  DISEASE
                 </h2>
-                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
-                  Raclette Blueberry Nextious Level
+                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                  {name}
                 </h1>
-                <p class="leading-relaxed mb-3">
+                <p className="leading-relaxed mb-3 line-clamp-2 max-w-xl px-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  jianbing microdosing tousled waistcoat. Lol Lol Lol
+                  LolLolLolLolLolLol
                 </p>
-                <Link to="/" class="text-indigo-500 inline-flex items-center">
+                <Link
+                  to="/"
+                  className="text-indigo-500 inline-flex items-center"
+                >
                   Learn More
                   <svg
-                    class="w-4 h-4 ml-2"
+                    className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     stroke-width="2"
@@ -34,10 +38,10 @@ export default function Disease({ name, desc }) {
                     <path d="M12 5l7 7-7 7"></path>
                   </svg>
                 </Link>
-                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                  <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span className="text-gray-800 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
-                      class="w-4 h-4 mr-1"
+                      className="w-4 h-4 mr-1"
                       stroke="currentColor"
                       stroke-width="2"
                       fill="none"
@@ -50,9 +54,9 @@ export default function Disease({ name, desc }) {
                     </svg>
                     1.2K
                   </span>
-                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <span className="text-gray-800 inline-flex items-center leading-none text-sm">
                     <svg
-                      class="w-4 h-4 mr-1"
+                      className="w-4 h-4 mr-1"
                       stroke="currentColor"
                       stroke-width="2"
                       fill="none"

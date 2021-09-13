@@ -1,41 +1,48 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    minWidth: {
+      0: "0",
+      "1/4": "25%",
+      "1/2": "50%",
+      "3/4": "75%",
+      full: "100%",
+    },
     extend: {
-      colors:{
-        transparent:'transparent',
-        current:'current',
-        black:colors.black,
+      colors: {
+        transparent: "transparent",
+        current: "current",
+        black: colors.black,
         blueGray: colors.blueGray,
         coolGray: colors.coolGray,
-        gray:colors.gray,
-        trueGray:colors.trueGray,
-        warmGray:colors.warmGray,
-        red:colors.red,
-        orange:colors.orange,
-        amber:colors.amber,
-        yellow:colors.yellow,
-        lime:colors.lime,
-        green:colors.green,
-        emerald:colors.emerald,
-        teal:colors.teal,
-        cyan:colors.cyan,
-        sky:colors.sky,
-        blue:colors.blue,
-        indigo:colors.indigo,
-        violet:colors.violet,
-        purple:colors.purple,
-        fuchsia:colors.fuchsia,
-        pink:colors.pink,
-        rose:colors.rose,
-      }
+        gray: colors.gray,
+        trueGray: colors.trueGray,
+        warmGray: colors.warmGray,
+        red: colors.red,
+        orange: colors.orange,
+        amber: colors.amber,
+        yellow: colors.yellow,
+        lime: colors.lime,
+        green: colors.green,
+        emerald: colors.emerald,
+        teal: colors.teal,
+        cyan: colors.cyan,
+        sky: colors.sky,
+        blue: colors.blue,
+        indigo: colors.indigo,
+        violet: colors.violet,
+        purple: colors.purple,
+        fuchsia: colors.fuchsia,
+        pink: colors.pink,
+        rose: colors.rose,
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/line-clamp")],
+};

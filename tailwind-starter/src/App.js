@@ -2,20 +2,20 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Landing from "./pages/Landing";
 import Diseases from "./pages/Diseases";
+import Predict from "./pages/Predict";
 import Nav from "./components/Nav";
+import Error404 from "./pages/Error404";
 function App() {
-  // Write new routes by adding a route tag underneath the home route by doing something like this:
-  // <Route path="<YOUR_PATH_URL>" component={<NAME_OF_COMPONENT>}/>
   return (
     <div className="App">
       <Router>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route path="/home" component={Home} />
-          <Route path="/diseases" component={Diseases} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/diseases" component={Diseases} />
+          <Route exact path="/predict" component={Predict} />
+          <Route component={Error404} />
         </Switch>
       </Router>
     </div>

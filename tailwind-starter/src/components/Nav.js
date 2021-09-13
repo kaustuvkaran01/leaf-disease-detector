@@ -9,7 +9,9 @@ export default function Nav() {
         <div className="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8 items-center">
           <ul className="items-stretch hidden space-x-3 md:flex">
             <li className="flex">
-              <Link to="/predict">Predict</Link>
+              <Link to="/predict">
+                <p className="font-bold">PREDICT</p>
+              </Link>
             </li>
           </ul>
           <Link to="/">
@@ -25,7 +27,9 @@ export default function Nav() {
           </Link>
           <ul className="items-stretch hidden space-x-3 md:flex">
             <li className="flex">
-              <Link to="/diseases">Diseases</Link>
+              <Link to="/diseases">
+                <p className="font-bold">DISEASES</p>
+              </Link>
             </li>
           </ul>
           <button title="Button" type="button" className="p-4 md:hidden">
