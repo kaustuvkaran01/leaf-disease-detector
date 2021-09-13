@@ -15,6 +15,7 @@ export default function Predict() {
       });
       reader.readAsDataURL(e.target.files[0]);
       console.log(imgData);
+      console.log(picture);
     }
   };
   return (

@@ -6,6 +6,7 @@ import Diseases from "./pages/Diseases";
 import Predict from "./pages/Predict";
 import Nav from "./components/Nav";
 import Error404 from "./pages/Error404";
+
 function App() {
   return (
     <div className="App">
