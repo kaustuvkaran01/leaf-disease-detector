@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Disease({ name, desc }) {
+export default function Disease({ name, desc, link }) {
   return (
     <div>
       <section className="text-gray-600 body-font ">
@@ -16,12 +16,10 @@ export default function Disease({ name, desc }) {
                   {name}
                 </h1>
                 <p className="leading-relaxed mb-3 line-clamp-2 max-w-xl px-3">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat. Lol Lol Lol
-                  LolLolLolLolLolLol
+                  {desc}
                 </p>
                 <Link
-                  to="/"
+                  to={link}
                   className="text-indigo-500 inline-flex items-center"
                 >
                   Learn More
@@ -38,7 +36,7 @@ export default function Disease({ name, desc }) {
                     <path d="M12 5l7 7-7 7"></path>
                   </svg>
                 </Link>
-                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                {/* <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                   <span className="text-gray-800 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
@@ -68,7 +66,7 @@ export default function Disease({ name, desc }) {
                     </svg>
                     6
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

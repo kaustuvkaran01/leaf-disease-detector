@@ -1,23 +1,10 @@
 import React, { useState } from "react";
-
+import Convert from "../components/Convert";
 // import { Link } from "react-router-dom";
 
 export default function Predict() {
-  const [picture, setPicture] = useState(null);
+  // const [picture, setPicture] = useState(null);
   const [imgData, setImgData] = useState(null);
-  const onChangePicture = (e) => {
-    if (e.target.files[0]) {
-      setPicture(e.target.files[0]);
-      const reader = new FileReader();
-      console.log("picture: ", e.target.files);
-      reader.addEventListener("load", () => {
-        setImgData(reader.result);
-      });
-      reader.readAsDataURL(e.target.files[0]);
-      console.log(imgData);
-      console.log(picture);
-    }
-  };
   return (
     <div>
       <section className="bg-coolGray-800 text-coolGray-100 h-screen">
@@ -34,7 +21,7 @@ export default function Predict() {
               <img className="h-full" src={imgData} alt="400x500" />
             )}
           </div>
-          <input type="file" name="myImage" onChange={onChangePicture} />
+          <Convert imgData={imgData} setImgData={setImgData} />
         </div>
       </section>
     </div>
