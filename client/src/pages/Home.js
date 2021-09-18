@@ -18,7 +18,7 @@ function Home() {
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
               Your Own
               <br />
-              <span className="text-violet-400">Leaf-Disease Detector</span>
+              <span className="text-amber-500">Leaf-Disease Detector</span>
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12">
               Upload a photo and get to know the disease affecting your crop
@@ -28,13 +28,13 @@ function Home() {
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <Link
                 to="/predict"
-                className="px-8 py-3 text-lg font-semibold rounded bg-violet-400 text-coolGray-900"
+                className="px-8 py-3 text-lg font-semibold rounded bg-amber-500 text-coolGray-900"
               >
                 Predict
               </Link>
               <Link
                 to="/diseases"
-                className="px-8 py-3 text-lg font-semibold border rounded border-coolGray-100"
+                className="px-8 py-3 text-lg font-semibold border rounded border-amber-500"
               >
                 Diseases
               </Link>

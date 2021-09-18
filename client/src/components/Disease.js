@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 export default function Disease({ name, desc, link }) {
   return (
     <div>
-      <section className="text-gray-600 body-font ">
+      <section className="text-gray-800 body-font">
         <div className="container py-12">
           <div className="flex flex-wrap justify-center">
             <div className="lg:w-4/5">
-              <div className="h-full bg-gray-100 bg-opacity-75 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              <div className="h-full bg-amber-500 bg-opacity-75 pt-16 pb-24 rounded-lg overflow-hidden text-center relative shadow-2xl">
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-900 mb-1">
                   DISEASE
                 </h2>
                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
@@ -20,7 +20,7 @@ export default function Disease({ name, desc, link }) {
                 </p>
                 <Link
                   to={link}
-                  className="text-indigo-500 inline-flex items-center"
+                  className="text-pink-700 inline-flex items-center"
                 >
                   Learn More
                   <svg

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-
+import axios from "axios";
 export default function Convert({ imgData, setImgData }) {
   const [picture, setPicture] = useState(null);
+  const [prediction, setPrediction] = useState(null);
   const submitClick = () => {};
   const onChangePicture = (e) => {
     if (e.target.files[0]) {
@@ -12,12 +13,21 @@ export default function Convert({ imgData, setImgData }) {
         setImgData(reader.result);
       });
       console.log(reader.readAsDataURL(e.target.files[0]));
-      console.log(imgData);
+      console.log("img : ", imgData);
       console.log("picture:  ", picture);
+
+      //post request for sending images
+      axios
+        .post("http://localhost:5000/prediction", picture)
+        .then((res) => {
+          setPrediction(res);
+          console.log(res);
+        })
+        .catch((err) => console.log(err));
     }
   };
   return (
-    <div>
+    <div className="text-amber-500">
       <input type="file" name="myImage" onChange={onChangePicture} />
       <button className="" onClick={submitClick}>
         Submit

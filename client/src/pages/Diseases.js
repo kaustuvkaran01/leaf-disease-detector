@@ -1,6 +1,6 @@
 import React from "react";
 import Disease from "../components/Disease";
-import DiseaseGraph from "../components/DiseaseGraph";
+// import DiseaseGraph from "../components/DiseaseGraph";
 export default function Diseases() {
   const dis = [
     {
@@ -51,7 +51,7 @@ export default function Diseases() {
   ];
   return (
     <div className="flex flex-col">
-      <DiseaseGraph />
+      {/* <DiseaseGraph /> */}
       <div className="flex flex-wrap justify-evenly bg-coolGray-800">
         {dis.map((d) => {
           return <Disease name={d.name} desc={d.desc} link={d.link} />;
