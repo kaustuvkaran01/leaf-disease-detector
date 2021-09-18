@@ -27,9 +27,12 @@ export default function Convert({ imgData, setImgData }) {
     }
   };
   return (
-    <div className="text-amber-500">
+    <div className="text-amber-500 pt-4">
       <input type="file" name="myImage" onChange={onChangePicture} />
-      <button className="" onClick={submitClick}>
+      <button
+        className="rounded-xl border-2 p-2 px-4 border-amber-500"
+        onClick={submitClick}
+      >
         Submit
       </button>
     </div>
