@@ -54,6 +54,7 @@ The data has been modified by me to be used as example.
    ![image](https://user-images.githubusercontent.com/43791878/135287832-43d86f91-6292-48f2-bbff-edf1905261e8.png)
 
 4. Results
+   - The results were : 89.99% accuracy on the test set and 97% accuracy on the validation set.
    ![image](https://user-images.githubusercontent.com/43791878/135287933-522427f6-d899-4cd5-b720-c16926b0de85.png)
 
 5. Unique Points
@@ -61,7 +62,9 @@ The data has been modified by me to be used as example.
     - Website with a user-friendly UI and with information about the various diseases that the model predicts for the users to take pre-emptive action.
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/43791878/135307709-28da5c07-ccb0-408e-a23f-7c6059510bf2.png)
+![image](https://user-images.githubusercontent.com/43791878/135307849-23288a6d-28fb-489f-81bb-da8ee783e6ef.png)
+![image](https://user-images.githubusercontent.com/43791878/135307900-6779168e-8a97-46cf-a11a-0e911a30da92.png)
+![image](https://user-images.githubusercontent.com/43791878/135307999-13d2fc25-35e2-43af-b521-b78d32a30f0b.png)
+![image](https://user-images.githubusercontent.com/43791878/135308231-b80febe8-a7f2-4270-b943-d3bbe0d4615c.png)
 
-![image](https://user-images.githubusercontent.com/43791878/134009191-4c829d5e-cb04-4e71-a563-36a015246604.png)
-![image](https://user-images.githubusercontent.com/43791878/134009237-59650b26-ec7e-4b61-9042-93a75058bc69.png)
-![image](https://user-images.githubusercontent.com/43791878/134009407-704e94fb-2be0-45bf-9d85-a2c5e8653a86.png)
