@@ -33,15 +33,20 @@ The data has been modified by me to be used as example.
 ![Screenshot 2021-09-20 184501](https://user-images.githubusercontent.com/43791878/134008831-6121b47a-d293-4d24-9b63-96c357088320.png)
 
 2. The Model
+   - I have built a custom CNN of 10 layers with loss as categorical crossentropy and optimizer as the Adam Optimizer from Keras.
 
-   - I have used media queries wherever possible so as to make the application look responive across desktops, tablets & mobile phones
+   ![image](https://user-images.githubusercontent.com/43791878/135286779-8076df14-4d8a-4ff4-a9ef-fa239a49f436.png)
+   ![image](https://user-images.githubusercontent.com/43791878/135286914-b2496d9f-986a-4839-96d3-150568fcc765.png)
+   Layers :
+   ![image](https://user-images.githubusercontent.com/43791878/135287623-360536dc-b68b-4be8-89ea-f97c51148409.png)
+
 
 3. Training
-   - The option to upload a new dataset (mock only)
-   - The editor has a search on recently run query.
-   - List of all columns in the table for all tables.
-   - Visually appealing Light and Dark modes.
+   ![image](https://user-images.githubusercontent.com/43791878/135287718-665afc28-c66d-40b5-afef-d82b072a9505.png)
+   ![image](https://user-images.githubusercontent.com/43791878/135287832-43d86f91-6292-48f2-bbff-edf1905261e8.png)
+
 4. Results
+   ![image](https://user-images.githubusercontent.com/43791878/135287933-522427f6-d899-4cd5-b720-c16926b0de85.png)
 
 5. Unique Points
 
