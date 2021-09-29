@@ -57,6 +57,8 @@ The data has been modified by me to be used as example.
    ![image](https://user-images.githubusercontent.com/43791878/135287933-522427f6-d899-4cd5-b720-c16926b0de85.png)
 
 5. Unique Points
+    - Custom CNN with 90% accuracy on test set and 97% accuracy on validation set.
+    - Website with a user-friendly UI and with information about the various diseases that the model predicts for the users to take pre-emptive action.
 
 ## Screenshots
 
