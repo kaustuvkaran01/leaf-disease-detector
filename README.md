@@ -56,6 +56,8 @@ The data has been modified by me to be used as example.
 4. Results
    - The results were : 89.99% accuracy on the test set and 97% accuracy on the validation set.
    ![image](https://user-images.githubusercontent.com/43791878/135287933-522427f6-d899-4cd5-b720-c16926b0de85.png)
+   ![image](https://user-images.githubusercontent.com/43791878/135319938-cf3302cc-f823-45d8-9012-fa3dce7326c2.png)
+
 
 5. Unique Points
     - Custom CNN with 90% accuracy on test set and 97% accuracy on validation set.
