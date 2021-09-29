@@ -38,7 +38,7 @@ The data has been modified by me to be used as example.
    - Rescaled the images to 1/255 of their value and horizontally flipped the images randomly.
    - Resized the images to 256x256.
 
-![Screenshot 2021-09-20 184501](https://user-images.githubusercontent.com/43791878/134008831-6121b47a-d293-4d24-9b63-96c357088320.png)
+   ![image](https://user-images.githubusercontent.com/43791878/135288857-1a3cb394-c720-4c1d-bbe0-9fbaacf28ef9.png)
 
 2. The Model
    - I have built a custom CNN of 10 layers with loss as categorical crossentropy and optimizer as the Adam Optimizer from Keras.
