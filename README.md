@@ -6,7 +6,15 @@ The application is built using React.js, Flask, Tensorflow and Keras.
 
 The model used in this project has been trained to identify the following classes:
 
-1. Tomato Mosaic Virus 2. Target Spot 3. Bacterial spot 4. Tomato Yellow Leaf Curl Virus 5. Late Blight 6. Leaf Mold 7. Early Blight 8. Spidermites Two-spottedspider_mite 9. Tomato healthy 10. Septoria Leaf Spot
+1. Tomato Mosaic Virus 
+2. Target Spot 
+3. Bacterial spot 
+4. Tomato Yellow Leaf Curl Virus 
+5. Late Blight 
+6. Leaf Mold 
+7. Early Blight 
+8. Spidermites Two-Spotted Spider Mite 
+9. Tomato healthy 10. Septoria Leaf Spot
 
 **Task :** Create a leaf disease detection application with both a prediction section and information about various diseases that it can predict.
 
